@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mashup Generator</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+            padding-top: 60px;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            width: 350px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+        button {
+            background: #2b7cff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Mashup Generator</h2>
+        <form method="POST">
+            <input name="singer" placeholder="Singer name" required>
+            <input name="num" placeholder="Number of videos (>10)" required>
+            <input name="dur" placeholder="Duration in seconds (>20)" required>
+            <input name="email" placeholder="Your email" required>
+            <button type="submit">Generate Mashup</button>
+        </form>
+    </div>
+</body>
+</html>
