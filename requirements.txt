@@ -1,0 +1,5 @@
+flask
+yt-dlp
+pydub
+moviepy==1.0.3
+gunicorn
